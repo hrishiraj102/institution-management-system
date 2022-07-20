@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Using meta viewport for mobile view -->
+	<meta name="viewport" content="width=device-width,initial-scale-=1">
+	<link rel="stylesheet" href="stylesheetLogin.css">
+	<!-- Using below link for bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	<title>login page</title>
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+	<header class="header">
+		<span class="githead">
+			<h1>GIT Management System</h1>
+		</span>
+	</header>
+
+
+	<div id="loginbox">
+		<h3 style="margin-bottom: 25px; margin-left:80px; color:gray">Please Login</h3>
+		<span>
+			<form action="ServletLogin" method="post">
+				Username: <input type="text" name="user"></br></br>
+				Password: <input style="margin-left:4px;" type="password" name="pass"></br></br>
+				<input class="submitlogin" type="submit" value="Login" name="login">
+			</form>
+		</span>
+	</div>
+
+
+	<footer class="gitfooter">
+
+		<div class="boxfoot">
+			<hr>
+			<h5 style="color: black;padding-top:40px; opacity:0.5;">Copyright © 2022, Hrishiraj Sawan, All
+				Rights Reserved</h5>
+
+		</div>
+	</footer>
+</body>
+
+</html>

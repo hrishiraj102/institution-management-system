@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>GIT</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>s1</servlet-name>
+  <jsp-file>/adddepart.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s1</servlet-name>
+  <url-pattern>/add1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>s2</servlet-name>
+  <jsp-file>/del_depart.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s2</servlet-name>
+  <url-pattern>/delete1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>s3</servlet-name>
+  <jsp-file>/resultfindstu.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s3</servlet-name>
+  <url-pattern>/findstu</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>s4</servlet-name>
+  <jsp-file>/searchstaff.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s4</servlet-name>
+  <url-pattern>/searchFaculty</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>s5</servlet-name>
+  <jsp-file>/del_faculty.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s5</servlet-name>
+  <url-pattern>/deleteFaculty</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>s6</servlet-name>
+  <jsp-file>/edit_Faculty.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s6</servlet-name>
+  <url-pattern>/editFaculty</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>s7</servlet-name>
+  <jsp-file>/edit_Student.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s7</servlet-name>
+  <url-pattern>/editStudent</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>s8</servlet-name>
+  <jsp-file>/searchfees.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s8</servlet-name>
+  <url-pattern>/Sfees</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>s9</servlet-name>
+  <jsp-file>/editFee.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s9</servlet-name>
+  <url-pattern>/editfee</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>s10</servlet-name>
+  <jsp-file>/resultfindstuName.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s10</servlet-name>
+  <url-pattern>/findstuName</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>s11</servlet-name>
+  <jsp-file>/resultfindstaffname.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s11</servlet-name>
+  <url-pattern>/findstaffName</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>s12</servlet-name>
+  <jsp-file>/del_student.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s12</servlet-name>
+  <url-pattern>/deleteStu</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>s13</servlet-name>
+  <jsp-file>/del_fees.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s13</servlet-name>
+  <url-pattern>/deletefee</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>

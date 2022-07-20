@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Using meta viewport for mobile view -->
+    <meta name="viewport" content="width=device-width,initial-scale-=1">
+    <link rel="stylesheet" href="stylesheetLogin.css">
+    <!-- Using below link for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Department</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <span class="githead">
+            <h1>GIT Management System</h1>
+        </span>
+    </header>
+    <!-- For viewing database we go to servlet  -->
+    </br></br>
+    <div class="form1">
+        </br></br>
+        <h3>Select School from the list</h3>
+        </br></br>
+        <form action="engdiploma" method="post">
+
+            <!-- Below are the school name -->
+            <p>Engineering Diploma
+                <input type="radio" name="school" value="Engineering Diploma" />
+                Hotel Management
+                <input type="radio" name="school" value="Hotel Management" />
+                Short Term Course
+                <input type="radio" name="school" value="Short Term Certification" />
+            </p>
+            </br></br>
+            <input class="submitlogin" type="submit" name="Submit">
+        </form>
+    </div>
+    </br></br></br></br>
+
+    <div class="form1">
+        </br></br>
+        <h3>Add/Delete Department</h3>
+        <!-- For adding or Deleting I are taking help of jsp file -->
+        <h4>For deleting or adding please refer to the Department chart for department code.</h4>
+    </br></br>
+        <form method="post">
+            <p>Department Name <input type="text" name="depart_name" required /></p>
+            <p>Department code (For new put unique code according to the code protocol (abc)) <input type="text"
+                    name="depart_id" required /></p>
+            <p>School </p>
+            <p>Engineering Diploma
+                <input type="radio" name="school1" value="Engineering Diploma1" /> Hotel Management <input type="radio"
+                    name="school1" value="Hotel Management1" />
+                Short Term certification <input type="radio" name="school1" value="Short Term Certification1" />
+            </p>
+            <input class="submitlogin" type="submit" value="Add" formaction="add1" name="Add">
+            <input class="submitlogin1" type="submit" value="Delete" formaction="delete1" name="Delete">
+        </form>
+    </div>
+    </br></br></br></br>
+
+
+    <p class="buttonLink"><a href="login.html">Log out</a>
+    <p>
+        </br></br>
+    <footer class="gitfooter">
+
+        <div class="boxfoot">
+            <hr>
+            <h5 style="color: black;padding-top:40px; opacity:0.5;">Copyright © 2022, Hrishiraj Sawan, All
+                Rights Reserved</h5>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

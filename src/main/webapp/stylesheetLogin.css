@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+
+
+.githead {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 550px;
+	text-align: center;
+	color: white;
+
+
+
+
+}
+
+.header {
+	background-color: #4E944F;
+
+	height: 100px;
+}
+
+#loginbox {
+	position: relative;
+	margin: 250px 40%;
+	box-sizing: content-box;
+	text-align: center;
+}
+
+.gitfooter {
+	position: relative;
+	margin-bottom: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+
+}
+
+.gitfooter1 {
+	position: absolute;
+	margin-bottom: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+
+}
+
+.boxfoot {
+	background-color: #F7F5F2;
+	height: 100px;
+	text-align: center;
+
+
+
+}
+
+.submitlogin {
+	box-sizing: content-box;
+
+	position: absolute;
+
+	color: #83BD75;
+	border-color: #83BD75;
+	margin-top: 10px;
+	background-color: #F9F9F9;
+	border-radius: 40px;
+
+}
+
+.submitlogin1 {
+	box-sizing: content-box;
+
+	position: absolute;
+
+	color: #83BD75;
+	border-color: #83BD75;
+	margin-top: 10px;
+	margin-left: 200px;
+	background-color: #F9F9F9;
+	border-radius: 40px;
+
+}
+
+#loginSuccess {
+	margin: 20px 40px;
+}
+
+#linksdb {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.buttonLink {
+	background-color: #83BD75;
+	color: #F7F5F2;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin-left: 40px;
+	width: fit-content;
+}
+
+.buttonLink1 {
+	background-color: #83BD75;
+	color: #F7F5F2;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin-left: 100px;
+	width: fit-content;
+}
+.buttonLink2 {
+	background-color: #83BD75;
+	color: #F7F5F2;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin-left: 10px;
+	width: fit-content;
+	margin-bottom: 10px;
+	
+}
+
+.form1 {
+	background-color: #E9EFC0;
+	margin-left: 200px;
+	width: 70%;
+	padding-left: 10px;
+	border-radius: 2px;
+}
+
+.table{
+	position: relative;
+	margin-top:50px;
+	margin-left:10px;
+	width: fit-content;
+	background-color: #FCF8E8;
+}
